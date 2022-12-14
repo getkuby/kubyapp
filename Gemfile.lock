@@ -60,6 +60,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     aws-eventstream (1.1.0)
     aws-iam-authenticator-rb (0.1.0-x86_64-darwin)
+    aws-iam-authenticator-rb (0.1.0-x86_64-linux)
     aws-partitions (1.329.0)
     aws-sdk-core (3.99.2)
       aws-eventstream (~> 1, >= 1.0.2)
@@ -133,6 +134,7 @@ GEM
     helm-cli (0.2.0)
       helm-rb (~> 0.1)
     helm-rb (0.1.0-x86_64-darwin)
+    helm-rb (0.1.0-x86_64-linux)
     http (4.4.1)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -173,6 +175,7 @@ GEM
       recursive-open-struct (~> 1.1, >= 1.1.1)
       rest-client (~> 2.0)
     kubectl-rb (0.1.0-x86_64-darwin)
+    kubectl-rb (0.1.0-x86_64-linux)
     kubernetes-cli (0.2.0)
       kubectl-rb (~> 0.1)
     kuby-azure (0.1.0)
@@ -212,7 +215,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    loofah (2.5.0)
+    loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -226,7 +229,6 @@ GEM
     mime-types-data (3.2020.0512)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
-    mini_portile2 (2.4.0)
     minitest (5.14.1)
     ms_rest (0.7.6)
       concurrent-ruby (~> 1.0)
@@ -243,8 +245,10 @@ GEM
     mysql2 (0.5.3)
     netrc (0.11.0)
     nio4r (2.5.2)
-    nokogiri (1.10.9)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.12.5-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x86_64-linux)
+      racc (~> 1.4)
     oj (3.10.6)
     os (1.1.0)
     pry (0.13.1)
@@ -258,6 +262,7 @@ GEM
     public_suffix (4.0.5)
     puma (4.3.5)
       nio4r (~> 2.0)
+    racc (1.6.1)
     rack (2.2.3)
     rack-protection (2.0.8.1)
       rack
@@ -379,8 +384,8 @@ GEM
     zeitwerk (2.3.0)
 
 PLATFORMS
-  ruby
   x86_64-darwin-17
+  x86_64-linux
 
 DEPENDENCIES
   aws-iam-authenticator-rb
