@@ -60,6 +60,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     aws-eventstream (1.1.0)
     aws-iam-authenticator-rb (0.1.0-x86_64-darwin)
+    aws-iam-authenticator-rb (0.1.0-x86_64-linux)
     aws-partitions (1.329.0)
     aws-sdk-core (3.99.2)
       aws-eventstream (~> 1, >= 1.0.2)
@@ -133,6 +134,7 @@ GEM
     helm-cli (0.2.0)
       helm-rb (~> 0.1)
     helm-rb (0.1.0-x86_64-darwin)
+    helm-rb (0.1.0-x86_64-linux)
     http (4.4.1)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -173,6 +175,7 @@ GEM
       recursive-open-struct (~> 1.1, >= 1.1.1)
       rest-client (~> 2.0)
     kubectl-rb (0.1.0-x86_64-darwin)
+    kubectl-rb (0.1.0-x86_64-linux)
     kubernetes-cli (0.2.0)
       kubectl-rb (~> 0.1)
     kuby-azure (0.1.0)
@@ -258,7 +261,7 @@ GEM
     public_suffix (4.0.5)
     puma (4.3.5)
       nio4r (~> 2.0)
-    rack (2.2.3)
+    rack (2.2.6.2)
     rack-protection (2.0.8.1)
       rack
     rack-proxy (0.6.5)
@@ -379,8 +382,8 @@ GEM
     zeitwerk (2.3.0)
 
 PLATFORMS
-  ruby
   x86_64-darwin-17
+  x86_64-linux
 
 DEPENDENCIES
   aws-iam-authenticator-rb
